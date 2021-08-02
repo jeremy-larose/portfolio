@@ -981,6 +981,7 @@ hr {
 }
 
 .portfolio-area .portfolio-grid .portfolio-wrapper>.img-fluid {
+  max-height: 200px;
   width: 100%;
 }
 
@@ -1002,11 +1003,13 @@ hr {
   font-weight: 400;
   line-height: 1.8;
   margin-bottom: 10px;
+
 }
 
 .portfolio-area .portfolio-grid .portfolio-wrapper .item-content .content-more {
   display: inline-block;
   font-weight: 600;
+
 }
 
 .portfolio-area .portfolio-grid .portfolio-wrapper:hover:before {
