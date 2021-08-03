@@ -8,3 +8,89 @@
   */
 
 /*----------- ADD YOUR CUSTOM CSS STYLES BELOW -----------*/
+.icon-small {
+    max-height: 64px;
+    max-width: 64px;
+    margin-bottom: 20px;
+}
+
+.icon-small-unity {
+    max-height: 128px;
+    max-width: 128px;
+    margin-bottom: 20px;
+}
+
+.icon-small-web {
+    max-height: 162px;
+    max-width: 162px;
+    margin-bottom: 25px;
+}
+
+.icon-database-small {
+    max-height: 60px;
+    max-width: 64px;
+    margin-bottom: 25px;
+}
+
+.single-service {
+    transition: box-shadow .3s;
+}
+
+.single-service:hover {
+    box-shadow: 0 0 11px
+    rgba( 33, 33, 33, .2 );
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+button {
+    color: var(--color);
+    transition: 0.25s;
+}
+button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+}
+.raise {
+    --color: #ffa260;
+    --hover: #ffffff;
+  }
+
+  body {
+    background: #333;
+  }
+  
+ .side-nav-menu {
+    font-size: 5rem;
+    display: inline-block;
+    -webkit-transition: all 700ms cubic-bezier(0.19, 1, 0.22, 1);
+    -moz-transition: all 700ms cubic-bezier(0.19, 1, 0.22, 1);
+    -ms-transition: all 700ms cubic-bezier(0.19, 1, 0.22, 1);
+    -o-transition: all 700ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 700ms cubic-bezier(0.19, 1, 0.22, 1);
+    -webkit-transform: translateY(0) scale(0.95, 0.95);
+    -moz-transform: translateY(0) scale(0.95, 0.95);
+    -ms-transform: translateY(0) scale(0.95, 0.95);
+    -o-transform: translateY(0) scale(0.95, 0.95);
+    transform: translateY(0) scale(0.95, 0.95);
+  }
+  .side-nav-menu:hover {
+    box-shadow: 0px 3px 15px 3px rgba(0, 0, 0, 0.5);
+    -webkit-transform: translateY(-5px) scale(1.05);
+    -moz-transform: translateY(-5px) scale(1.05);
+    -ms-transform: translateY(-5px) scale(1.05);
+    -o-transform: translateY(-5px) scale(1.05);
+    transform: translateY(-5px) scale(1.05);
+  }
+  .side-nav-menu a {
+    color: #eaeaea;
+    text-decoration: none;
+    padding: 0 1rem;
+  }
+  
+  /*# sourceMappingURL=hoverLabel.css.map */
+  
