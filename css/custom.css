@@ -1093,6 +1093,34 @@ button {
   z-index: 10001;
 }
 
+.case-study-screenshot {
+  background: rgba(246, 239, 230, 0.065);
+  border: 1px solid rgba(246, 239, 230, 0.13);
+  border-radius: 28px;
+  box-shadow: var(--shadow-warm);
+  margin: 0;
+  overflow: hidden;
+  padding: 8px;
+}
+
+.case-study-screenshot img {
+  aspect-ratio: 4 / 3;
+  border-radius: 22px;
+  display: block;
+  object-fit: cover;
+  object-position: top center;
+  width: 100%;
+}
+
+.case-study-screenshot figcaption {
+  color: var(--text-muted);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  margin: 12px 8px 4px;
+  text-transform: uppercase;
+}
+
 .case-study-panel {
   background:
     radial-gradient(circle at top right, rgba(213, 155, 104, 0.18), transparent 15rem),
