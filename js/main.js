@@ -675,11 +675,18 @@
 
       grid.isotope({
         itemSelector: '.single-item',
+        layoutMode: 'fitRows'
       });
       filters.on('click', function() {
         filters.removeClass('tab-active');
         $(this).addClass('tab-active');
         var selector = $(this).data('filter');
+        grid.find('.single-item').hide();
+        if (selector === '*') {
+          grid.find('.single-item').show();
+        } else {
+          grid.find(selector).show();
+        }
         grid.isotope({
           filter: selector,
           transitionDuration: '.25s'

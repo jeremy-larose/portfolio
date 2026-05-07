@@ -1,41 +1,37 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
   <head>
     <!-- Required meta tags-->
     <meta charset="utf-8" />
 
     <!-- Title-->
-    <title>Jeremy LaRose: Personal Portfolio</title>
+    <title>Jeremy LaRose | Technical Director & Product Systems Architect</title>
     <!-- Description-->
     <meta
       name="description"
-      content=" Personal Portfolio / Resume / CV / vCard Template"
+      content="Jeremy LaRose builds AI platforms, marketplace systems, CRM automation, and enterprise integrations for teams that need durable business software."
     />
+    <meta property="og:title" content="Jeremy LaRose | Technical Director" />
+    <meta
+      property="og:description"
+      content="Technical leadership, full-stack product architecture, AI delivery systems, and enterprise integrations."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/jeremy-barn-background.png" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <!-- Favicons-->
     <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="img/favicons/apple-touch-icon.png"
-    />
-    <link
       rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="img/favicons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="img/favicons/favicon-16x16.png"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230d0c0a'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' font-family='Arial,sans-serif' font-size='24' font-weight='700' fill='%23d59b68'%3EJL%3C/text%3E%3C/svg%3E"
     />
     <!-- Web fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <!-- CSS vendors-->
@@ -50,10 +46,11 @@
     <!-- CSS Color scheme-->
     <link id="color-scheme" rel="stylesheet" href="css/colors/main-red.css" />
     <!-- Custom CSS (Add your custom CSS styles to this file)-->
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/custom.css?v=20260507d" />
   </head>
 
   <body>
+    <a class="skip-link" href="#about-area">Skip to content</a>
     <!-- Preloader-->
     <div class="preloader">
       <div class="preloader-block">
@@ -87,21 +84,22 @@
           </div>
         </nav>
 
-        <nav class="sidebar" data-simplebar>
+        <nav class="sidebar" data-simplebar aria-label="Primary navigation">
           <div class="sidebar-header">
-            <a href="#home" data-scroll
+            <a href="#home-area" data-scroll
               ><img
                 class="img-fluid sidebar-avatar"
-                src="img/headshot.jpg"
-                alt="Profile avatar" /></a
+                src="img/jeremy-portfolio-headshot.png"
+                alt="Jeremy LaRose headshot" /></a
             ><span class="sidebar-name">Jeremy LaRose</span>
-            <p class="sidebar-status">Available for work</p>
+            <p class="sidebar-status">Technical director</p>
+            <p class="sidebar-kicker">AI platforms / integrations / product systems</p>
             <br />
             <a
               class="btn content-download button-main button-scheme raise"
-              href="img/JeremyLaRoseResume2.pdf"
+              href="mailto:jeremy@jeremylarose.com?subject=Resume%20request"
               role="button"
-              >Download Resume</a
+              >Request Resume</a
             >
           </div>
 
@@ -148,24 +146,72 @@
       <div class="sections-wrapper">
         <!-- Sections-->
         <!-- Home-->
-        <section
-          class="home-area element-cover-bg"
-          id="home-area"
-          style="background-image: url(img/largeProfile.jpg)"
-        >
+        <section class="home-area element-cover-bg premium-hero" id="home-area">
           <div class="container h-100">
-            <div class="row h-100 align-items-center justify-content-center">
-              <div class="col-12 col-lg-8 home-content text-center">
-                <h1 class="home-name">Jeremy <span>LaRose</span></h1>
-                <h4 class="cd-headline clip home-headline">
-                  I’m a
-                  <span class="cd-words-wrapper single-headline"
-                    ><b class="is-visible">Leader</b><b>Businessman</b
-                    ><b>Developer</b></span
+            <div class="row h-100 align-items-center justify-content-between">
+              <div class="col-12 col-lg-7 home-content text-left">
+                <span class="hero-eyebrow">Technical director / product systems architect</span>
+                <h1 class="home-name">
+                  I build business software that survives real operations.
+                </h1>
+                <p class="hero-lede">
+                  I lead the messy middle of software: AI workflows, marketplaces,
+                  CRM/ERP integrations, delivery systems, and the teams that need
+                  them to work after launch.
+                </p>
+                <div class="hero-actions">
+                  <a
+                    class="btn button-main button-scheme raise"
+                    data-scroll
+                    href="#portfolio-area"
+                    role="button"
+                    >View selected work</a
                   >
-                </h4>
+                  <a
+                    class="btn button-main button-quiet raise"
+                    data-scroll
+                    href="#contact-area"
+                    role="button"
+                    >Start a conversation</a
+                  >
+                </div>
+                <div class="hero-metrics" aria-label="Professional highlights">
+                  <div>
+                    <span>12+</span>
+                    <p>years building production systems</p>
+                  </div>
+                  <div>
+                    <span>4</span>
+                    <p>featured platforms and case studies</p>
+                  </div>
+                  <div>
+                    <span>Full-stack</span>
+                    <p>.NET, SvelteKit, Azure, AI, CRM, ERP</p>
+                  </div>
+                </div>
               </div>
-              <a href="#about-area" data-scroll>
+              <div class="col-12 col-lg-5 hero-visual">
+                <div class="portrait-shell">
+                  <div class="portrait-core">
+                    <img
+                      class="img-fluid"
+                      src="img/jeremy-portfolio-headshot.png"
+                      alt="Jeremy LaRose"
+                    />
+                  </div>
+                </div>
+                <div class="hero-proof-card">
+                  <span>Current focus</span>
+                  <p>AI-assisted delivery platforms, workflow automation, and systems that make business context usable.</p>
+                </div>
+                <div class="hero-stack-card">
+                  <span>.NET Aspire</span>
+                  <span>SvelteKit</span>
+                  <span>Azure OpenAI</span>
+                  <span>HubSpot</span>
+                </div>
+              </div>
+              <a href="#about-area" data-scroll aria-label="Scroll to about section">
                 <div class="home-mouse">
                   <div class="mouse-shape">
                     <div class="mouse-wheel"></div>
@@ -181,36 +227,55 @@
             <div class="row">
               <div class="col-12">
                 <div class="section-heading">
-                  <h2 class="section-title">About me</h2>
-                  <p class="section-description">Get to know me</p>
+                  <span class="section-kicker">About</span>
+                  <h2 class="section-title">Technical direction for work that has to hold up.</h2>
+                  <p class="section-description">
+                    I connect strategy, architecture, and delivery so teams can move faster without creating software debt they regret later.
+                  </p>
                 </div>
               </div>
             </div>
             <div class="row align-items-center">
               <!-- Picture part-->
               <div class="col-12 col-lg-5 about-img">
-                <img
-                  class="img-fluid img-thumbnail"
-                  src="img/cartoonProfile1.png"
-                  alt="About Picture"
-                />
+                <div class="about-image-shell">
+                  <img
+                    class="img-fluid"
+                    src="img/jeremy-barn-background.png"
+                    alt="Barn landscape background"
+                  />
+                </div>
               </div>
               <!-- Content part-->
               <div class="col-12 col-lg-7 about-content">
                 <div class="content-block">
-                  <h2 class="content-subtitle">Who am I?</h2>
+                  <h2 class="content-subtitle">How I work</h2>
                   <h6 class="content-title">
-                    Jeremy LaRose, a Business-Class Developer
+                    I turn ambiguous business problems into clear, maintainable systems.
                   </h6>
                   <div class="content-description">
                     <p>
-                      I am a technical director that specializes in problem
-                      solving. I have built dozens of integrations with various
-                      APIs and third-party services, as well as managed a team
-                      of developers and run oversight on numerous projects to
-                      streamline the business processes and optimize the
-                      software development lifecycle.
+                      I am a technical director who specializes in the space
+                      between business operations and engineering execution. I
+                      have built AI workflows, marketplace products, API
+                      integrations, CRM/ERP automations, and delivery systems
+                      while managing developers and keeping projects tied to the
+                      business process they are meant to improve.
                     </p>
+                  </div>
+                  <div class="about-principles">
+                    <div>
+                      <span>01</span>
+                      <p>Model the business first, then choose the technology.</p>
+                    </div>
+                    <div>
+                      <span>02</span>
+                      <p>Make the critical workflow observable, testable, and recoverable.</p>
+                    </div>
+                    <div>
+                      <span>03</span>
+                      <p>Keep the interface simple enough that teams actually use it.</p>
+                    </div>
                   </div>
                   <address class="content-info">
                     <div class="row">
@@ -229,20 +294,20 @@
                     </div>
                     <div class="row">
                       <div class="col-12 col-md-6 single-info">
-                        <span>Age:</span>
-                        <p>36</p>
-                      </div>
-                      <div class="col-12 col-md-6 single-info">
                         <span>From:</span>
                         <p>Michigan, USA</p>
+                      </div>
+                      <div class="col-12 col-md-6 single-info">
+                        <span>Availability:</span>
+                        <p>Consulting and selective builds</p>
                       </div>
                     </div>
                   </address>
                   <a
                     class="btn content-download button-main button-scheme raise"
-                    href="img/JeremyLaRoseResume2.pdf"
+                    href="mailto:jeremy@jeremylarose.com?subject=Resume%20request"
                     role="button"
-                    >Download Resume</a
+                    >Request Resume</a
                   ><a
                     class="btn content-work button-main raise"
                     data-scroll=""
@@ -260,15 +325,15 @@
         <section
           class="single-section element-cover-bg hire-area"
           id="hire-area"
-          style="background-image: url(img/hire.jpg)"
         >
           <div class="container">
             <div class="row row-custom">
               <div class="col-12 col-md-8 content-part">
-                <h1 class="hire-title">Let's work together!</h1>
+                <span class="section-kicker">Engagements</span>
+                <h1 class="hire-title">Need a senior builder who can translate business pressure into shipped software?</h1>
                 <p class="hire-description">
-                  I am available for business consulting and freelance projects.
-                  Let's chat about how we can strategize together.
+                  I am available for consulting, architecture reviews, AI product
+                  strategy, integration rescue work, and focused full-stack builds.
                 </p>
               </div>
               <div class="col-12 col-md-4 button-part">
@@ -277,7 +342,7 @@
                   data-scroll=""
                   href="#contact-area"
                   role="button"
-                  >Hire me</a
+                  >Talk through the project</a
                 >
               </div>
             </div>
@@ -289,10 +354,11 @@
           <div class="container">
             <div class="row">
               <div class="col-12">
-                <div class="section-heading">
-                  <h2 class="section-title">Portfolio</h2>
+                <div class="section-heading portfolio-heading">
+                  <span class="section-kicker">Selected work</span>
+                  <h2 class="section-title">Platforms with operational weight.</h2>
                   <p class="section-description">
-                    Showcasing some of my best work
+                    A few products and systems where architecture, delivery, and business process had to move together.
                   </p>
                 </div>
               </div>
@@ -302,572 +368,585 @@
               <div class="col-12">
                 <ul
                   class="list-inline filter-control"
-                  role="group"
                   aria-label="Filter Control"
                 >
                   <li class="list-inline-item tab-active" data-filter="*">
                     All
                   </li>
-                  <li class="list-inline-item" data-filter=".fullstack">
-                    Full-Stack
+                  <li class="list-inline-item" data-filter=".ai-platform">
+                    AI Platforms
                   </li>
-                  <li class="list-inline-item" data-filter=".gamedev">
-                    Game Development
+                  <li class="list-inline-item" data-filter=".marketplace">
+                    Marketplaces
                   </li>
-                  <li class="list-inline-item" data-filter=".projects">
-                    Projects
+                  <li class="list-inline-item" data-filter=".integrations">
+                    Enterprise Integrations
                   </li>
                 </ul>
               </div>
             </div>
 
             <!-- Thumbnail list-->
-            <div class="portfolio-grid row">
+            <div class="portfolio-grid row modern-project-grid">
               <!-- Single item-->
-              <div class="single-item col-6 col-lg-4 projects">
-                <a class="portfolio-item" href="#item-6">
-                  <div class="portfolio-wrapper">
-                    <img
-                      class="img-fluid"
-                      alt="Item"
-                      src="img/CMMC_Primary_Logo.svg"
-                    />
-                    <div class="item-content">
-                      <h6 class="content-title">CyberAB Website</h6>
-                      <span class="content-more">More Info</span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Single item-->
-              <div class="single-item col-6 col-lg-4 projects">
-                <a class="portfolio-item" href="#item-5">
-                  <div class="portfolio-wrapper">
-                    <img
-                      class="img-fluid"
-                      alt="Item"
-                      src="img/maxiRoseLife-1.png"
-                    />
-                    <div class="item-content">
-                      <h6 class="content-title">MaxiRose Site</h6>
-                      <span class="content-more">More Info</span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Single item-->
-              <div class="single-item col-6 col-lg-4 fullstack">
-                <a class="portfolio-item" href="#item-1">
-                  <div class="portfolio-wrapper">
-                    <img
-                      class="img-fluid"
-                      alt="Item"
-                      src="img/maxirose-logo.png"
-                    />
-                    <div class="item-content">
-                      <h6 class="content-title">MaxiRose Blog</h6>
-                      <span class="content-more">More Info</span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Single item-->
-              <div class="single-item col-6 col-lg-4 fullstack">
-                <a class="portfolio-item" href="#item-2">
-                  <div class="portfolio-wrapper">
-                    <img class="img-fluid" alt="Item" src="img/autoShop.jfif" />
-                    <div class="item-content">
-                      <h6 class="content-title">The Garage</h6>
-                      <span class="content-more">More Info</span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Single item-->
-              <div class="single-item col-6 col-lg-4 projects">
-                <a class="portfolio-item" href="#item-3">
-                  <div class="portfolio-wrapper">
-                    <img
-                      class="img-fluid"
-                      alt="Item"
-                      src="img/issueTracker.png"
-                    />
-                    <div class="item-content">
-                      <h6 class="content-title">Issue Tracker</h6>
-                      <span class="content-more">More Info</span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Single item-->
-              <div class="single-item col-6 col-lg-4 projects">
-                <a class="portfolio-item" href="#item-4">
-                  <div class="portfolio-wrapper">
-                    <img
-                      class="img-fluid"
-                      alt="Item"
-                      src="img/loanCalculator-2.png"
-                    />
-                    <div class="item-content">
-                      <h6 class="content-title">Loan Calculator</h6>
-                      <span class="content-more">More Info</span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- Single lightbox-->
-          <div class="lightbox-wrapper" id="item-1">
-            <div class="f-basis-100">
-              <div class="lightbox-close" data-modal-close>
-                <span class="close-btn"><span class="btn-line"></span></span>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-5">
-                  <div class="lightbox-gallery owl-carousel owl-theme">
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/maxirose-logo.png"
-                    />
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/maxiRose-2.png"
-                    />
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/maxiRose-3.png"
-                    />
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/maxiRose-4.png"
-                    />
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/maxiRose-5.png"
-                    />
-                  </div>
-                </div>
-                <div class="col-12 col-lg-7">
-                  <div class="lightbox-content">
-                    <h3 class="content-title">maxiRose Blog</h3>
-                    <div class="content-description">
-                      <p>
-                        The blog project for maxiRose was designed for speed and
-                        portability. Having a blog increases SEO and lends
-                        credibility to the company by providing a more personal
-                        touch to the site as well as another way to engage with
-                        users.
-                      </p>
-                      <p>
-                        This project utilizes ASP.NET and makes use of the
-                        functionality of Razor pages to quickly build out the
-                        front-end experience when combined with Bootstrap. By
-                        harnessing the power of ASP.NET, I was able to create
-                        and debug the blog with ease, which allowed me to
-                        complete the feature set requested by maxiRose. The
-                        project was linked to a Postgres server for ease of use
-                        with Entity Framework and Dependency Injection, and is
-                        hooked up for Continuous Integration/Deployment through
-                        linking Heroku and Github.
-                      </p>
-
-                      <p class="font-weight-bold font-italic">
-                        For Demo Purposes, use the following information to
-                        access the site as an Administrator:
-
-                        <br />
-                        <br />
-                        Login: maxirose@mailinator.com
-                        <br />
-                        Password: Abc123!
-                      </p>
-                    </div>
-                    <ul class="list-inline content-info">
-                      <li class="list-inline-item single-info">
-                        <span>Client:</span>
-                        <p>maxiRose, LLC</p>
-                      </li>
-                      <li class="list-inline-item single-info">
-                        <span>Categories:</span>
-                        <p>
-                          <a href="#0">Full Stack</a>, <a href="#0">Blog</a>
-                        </p>
-                      </li>
-                      <li class="list-inline-item single-info">
-                        <span>Technologies:</span>
-                        <p>
-                          C# ASP.NET 5.0, Bootstrap, jQuery, Entity Framework,
-                          MVC
-                        </p>
-                      </li>
-
-                      <li class="list-inline-item single-info">
-                        <span>Date:</span>
-                        <p>July 7th, 2021</p>
-                      </li>
-                    </ul>
-                    <p class="font-weight-bold">
-                      This application will take a few seconds to load due to
-                      server uptime restrictions.
+              <div class="single-item col-12 col-lg-7 ai-platform integrations">
+                <a class="portfolio-item project-card-link" href="#item-charli">
+                  <div class="portfolio-wrapper portfolio-card-panel project-card project-card-large charli-card">
+                    <span class="project-number">01</span>
+                    <span class="project-eyebrow">AI delivery platform</span>
+                    <h6 class="portfolio-card-title">Charli Knows</h6>
+                    <p>
+                      Project Jarvis: an AI-powered project management and
+                      delivery operating system for scope, estimation, time,
+                      budgets, and client communication.
                     </p>
-                    <a
-                      class="btn content-btn button-main button-scheme"
-                      target="_blank"
-                      href="https://maxiroseblog616.herokuapp.com/"
-                      role="button"
-                      >Visit Demo Project</a
-                    >
-                    <a
-                      class="btn content-btn button-main button-scheme"
-                      target="_blank"
-                      href="https://github.com/jeremy-larose/BlogPages"
-                      role="button"
-                      >View Source Code</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Single lightbox-->
-          <div class="lightbox-wrapper" id="item-2">
-            <div class="f-basis-100">
-              <div class="lightbox-close" data-modal-close>
-                <span class="close-btn"><span class="btn-line"></span></span>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-5">
-                  <div class="lightbox-gallery owl-carousel owl-theme">
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/garage-1.png"
-                    />
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/garage-2.png"
-                    />
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/garage-3.png"
-                    />
-                  </div>
-                </div>
-                <div class="col-12 col-lg-7">
-                  <div class="lightbox-content">
-                    <h3 class="content-title">The Garage</h3>
-                    <div class="content-description">
-                      <p>
-                        The Garage was made for an automotive company that
-                        wanted a working demo of an application built using an
-                        ASP.NET back end with an Angular front end.
-                      </p>
-
-                      <p>
-                        This project connects to an EF Core InMemory database
-                        built with an API for access from anywhere. The client
-                        wanted the ability to monitor engine running status for
-                        their fleet of vehicles as well as handle upgrades and
-                        information regarding horsepower and torque statistics.
-                        The site was designed from the planning phase for
-                        maximum expandability, built from the ground up with the
-                        ability to add more information regarding the vehicles
-                        quickly. This project is currently set up for CI/CD to
-                        Microsoft Azure.
-                      </p>
-                    </div>
-                    <ul class="list-inline content-info">
-                      <li class="list-inline-item single-info">
-                        <span>Client:</span>
-                        <p>Steinbauer</p>
-                      </li>
-                      <li class="list-inline-item single-info">
-                        <span>Categories:</span>
-                        <p>
-                          <a href="#0">Full-Stack</a>,
-                          <a href="#0">Database API</a>
-                        </p>
-                      </li>
-                      <li class="list-inline-item single-info">
-                        <span>Date:</span>
-                        <p>14 June, 2020</p>
-                      </li>
-                      <li class="list-inline-item single-info">
-                        <span>Technologies:</span>
-                        <p>ASP.NET, Angular, Azure, API, EF Core, CSS, JS</p>
-                      </li>
+                    <ul class="project-highlights">
+                      <li>Project memory</li>
+                      <li>Client portals</li>
+                      <li>Budget intelligence</li>
                     </ul>
-                    <a
-                      class="btn content-btn button-main button-scheme"
-                      target="_blank"
-                      href="https://garage20210714212658.azurewebsites.net/#/"
-                      role="button"
-                      >Visit Project</a
-                    >
-                    <a
-                      class="btn content-btn button-main button-scheme"
-                      target="_blank"
-                      href="https://github.com/jeremy-larose/thegarage"
-                      role="button"
-                      >View Source Code</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Single lightbox-->
-          <div class="lightbox-wrapper" id="item-3">
-            <div class="f-basis-100">
-              <div class="lightbox-close" data-modal-close>
-                <span class="close-btn"><span class="btn-line"></span></span>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-5">
-                  <div class="lightbox-gallery owl-carousel owl-theme">
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/issueTracker.png"
-                    />
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/issueTracker-1.png"
-                    />
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/issueTracker-2.png"
-                    />
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/issueTracker-3.png"
-                    />
-                  </div>
-                </div>
-                <div class="col-12 col-lg-7">
-                  <div class="lightbox-content">
-                    <h3 class="content-title">Issue Tracker</h3>
-                    <div class="content-description">
-                      <p>
-                        The Issue Tracker is a simple full-stack web app to
-                        showcase the speed and efficiency with which an ASP.NET
-                        application can be created using Bootstrap.
-                      </p>
-                      <p>
-                        This project was designed and created as a webapp using
-                        ASP.NET, Razor Pages, and an EF Core InMemory database.
-                        With CRUD functionality, the Issue Tracker allows for
-                        ease of use by linking Razor pages and forms to the .NET
-                        backend for quick development and maximum expansion.
-                      </p>
+                    <span class="portfolio-card-meta">.NET Aspire / SvelteKit / Azure OpenAI</span>
+                    <span class="project-card-cta">View case study <span>-></span></span>
+                    <div class="item-content">
+                      <h6 class="content-title">Charli Knows</h6>
+                      <span class="content-more">View Case Study</span>
                     </div>
-                    <ul class="list-inline content-info">
-                      <li class="list-inline-item single-info">
-                        <span>Client:</span>
-                        <p>Freelance</p>
-                      </li>
-                      <li class="list-inline-item single-info">
-                        <span>Categories:</span>
-                        <p>
-                          <a href="#0">Simple</a>,
-                          <a href="#0">Issue Tracking</a>
-                        </p>
-                      </li>
-                      <li class="list-inline-item single-info">
-                        <span>Date:</span>
-                        <p>12 May, 2020</p>
-                      </li>
-                      <li class="list-inline-item single-info">
-                        <span>Technologies:</span>
-                        <p>ASP.NET, Razor, Bootstrap, HTML5, SCSS, JS</p>
-                      </li>
+                  </div>
+                </a>
+              </div>
+              <!-- Single item-->
+              <div class="single-item col-12 col-lg-5 marketplace ai-platform">
+                <a class="portfolio-item project-card-link" href="#item-equimeta">
+                  <div class="portfolio-wrapper portfolio-card-panel project-card equimeta-card">
+                    <span class="project-number">02</span>
+                    <span class="project-eyebrow">Marketplace + operations</span>
+                    <h6 class="portfolio-card-title">Equimeta</h6>
+                    <p>
+                      A production-grade equestrian marketplace and operations
+                      platform spanning discovery, Deal Room payments, barn
+                      workflows, professional services, and buyer matching.
+                    </p>
+                    <ul class="project-highlights">
+                      <li>Stripe Connect</li>
+                      <li>SSR marketplace</li>
+                      <li>Hangfire jobs</li>
                     </ul>
-                    <a
-                      class="btn content-btn button-main button-scheme"
-                      target="_blank"
-                      href="https://bugtracker20210714211225.azurewebsites.net/"
-                      role="button"
-                      >Visit Project</a
-                    >
-                    <a
-                      class="btn content-btn button-main button-scheme"
-                      target="_blank"
-                      href="https://github.com/jeremy-larose/issueTracker"
-                      role="button"
-                      >View Source Code</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="lightbox-wrapper" id="item-4">
-            <div class="f-basis-100">
-              <div class="lightbox-close" data-modal-close>
-                <span class="close-btn"><span class="btn-line"></span></span>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-5">
-                  <div class="lightbox-gallery owl-carousel owl-theme">
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/loanCalculator-2.png"
-                    />
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/loanCalculator-1.png"
-                    />
-                  </div>
-                </div>
-                <div class="col-12 col-lg-7">
-                  <div class="lightbox-content">
-                    <h3 class="content-title">Loan Calculator</h3>
-                    <div class="content-description">
-                      <p>
-                        The loan calculator is a simple web application to
-                        quickly calculate an amortization schedule for a
-                        mortgage.
-                      </p>
-                      <p>
-                        This project was designed and created as a webapp using
-                        ASP.NET, Razor Pages, and Bootstrap. It was designed for
-                        ease of use with a minimalist UI to provide data quickly
-                        and cleanly.
-                      </p>
+                    <span class="portfolio-card-meta">ASP.NET Core / SvelteKit / Azure / PostgreSQL</span>
+                    <span class="project-card-cta">View case study <span>-></span></span>
+                    <div class="item-content">
+                      <h6 class="content-title">Equimeta</h6>
+                      <span class="content-more">View Case Study</span>
                     </div>
-                    <ul class="list-inline content-info">
-                      <li class="list-inline-item single-info">
-                        <span>Client:</span>
-                        <p>Freelance</p>
-                      </li>
-                      <li class="list-inline-item single-info">
-                        <span>Categories:</span>
-                        <p><a href="#0">Simple</a>, <a href="#0">Web App</a></p>
-                      </li>
-                      <li class="list-inline-item single-info">
-                        <span>Date:</span>
-                        <p>July 5th, 2021</p>
-                      </li>
-                      <li class="list-inline-item single-info">
-                        <span>Technologies:</span>
-                        <p>ASP.NET, Razor, Bootstrap, HTML5, CSS, JS</p>
-                      </li>
-                    </ul>
-                    <a
-                      class="btn content-btn button-main button-scheme"
-                      target="_blank"
-                      href="https://mortgagecalculator20210803170704.azurewebsites.net/"
-                      role="button"
-                      >Visit Project</a
-                    >
-                    <a
-                      class="btn content-btn button-main button-scheme"
-                      target="_blank"
-                      href="https://github.com/jeremy-larose/loanCalculator"
-                      role="button"
-                      >View Source Code</a
-                    >
                   </div>
-                </div>
+                </a>
               </div>
-            </div>
-          </div>
-          <div class="lightbox-wrapper" id="item-6">
-            <div class="f-basis-100">
-              <div class="lightbox-close" data-modal-close>
-                <span class="close-btn"><span class="btn-line"></span></span>
+              <!-- Single item-->
+              <div class="single-item col-12 col-lg-5 ai-platform integrations">
+                <a class="portfolio-item project-card-link" href="#item-daedalus">
+                  <div class="portfolio-wrapper portfolio-card-panel project-card daedalus-card">
+                    <span class="project-number">03</span>
+                    <span class="project-eyebrow">HubSpot automation</span>
+                    <h6 class="portfolio-card-title">Daedalus</h6>
+                    <p>
+                      A portal audit and configuration system that turns messy
+                      HubSpot instances into trusted pipelines, clean properties,
+                      workflows, dashboards, and rollback-ready deployments.
+                    </p>
+                    <span class="portfolio-card-meta">CRM audit / Review-before-deploy / Automation</span>
+                    <span class="project-card-cta">View case study <span>-></span></span>
+                    <div class="item-content">
+                      <h6 class="content-title">Daedalus</h6>
+                      <span class="content-more">View Case Study</span>
+                    </div>
+                  </div>
+                </a>
               </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-5">
-                  <div class="lightbox-gallery owl-carousel owl-theme">
+              <!-- Single item-->
+              <div class="single-item col-12 col-lg-7 integrations">
+                <a class="portfolio-item project-card-link" href="#item-cyberab">
+                  <div class="portfolio-wrapper portfolio-card-panel project-card project-card-wide cyberab-card">
+                    <span class="project-number">04</span>
                     <img
-                      class="img-fluid item-img"
-                      alt="cmmc-main-page"
+                      class="portfolio-card-logo"
+                      alt="The Cyber AB logo"
                       src="img/CMMC_Primary_Logo.svg"
                     />
+                    <span class="project-eyebrow">Enterprise integrations</span>
+                    <h6 class="portfolio-card-title">The Cyber AB</h6>
+                    <p>
+                      Custom e-commerce and integration architecture supporting
+                      the U.S. cybersecurity ecosystem around CMMC programs.
+                    </p>
+                    <span class="portfolio-card-meta">Angular / C# / HubSpot / DocuSign / Hangfire</span>
+                    <span class="project-card-cta">View case study <span>-></span></span>
+                    <div class="item-content">
+                      <h6 class="content-title">The Cyber AB</h6>
+                      <span class="content-more">View Case Study</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Single lightbox-->
+          <div class="lightbox-wrapper" id="item-charli">
+            <div class="f-basis-100">
+              <button class="lightbox-close" type="button" data-modal-close onclick="window.closeCaseStudy && window.closeCaseStudy(this); return false;">Close</button>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-lg-5">
+                  <div class="lightbox-gallery owl-carousel owl-theme">
+                    <div class="case-study-panel">
+                      <span>Delivery graph</span>
+                      <strong>Projects -> SoWs -> deliverables -> time</strong>
+                      <p>
+                        One connected model for scope, delivery health,
+                        estimates, budgets, meetings, and client requests.
+                      </p>
+                    </div>
+                    <div class="case-study-panel">
+                      <span>AI workflow</span>
+                      <strong>Charli works in context</strong>
+                      <p>
+                        Chat, background jobs, summaries, risk analysis,
+                        acceptance criteria, parsing, and reporting all draw from
+                        the project record instead of a generic prompt.
+                      </p>
+                    </div>
+                    <div class="case-study-panel">
+                      <span>Client portal</span>
+                      <strong>Visibility without internal exposure</strong>
+                      <p>
+                        Magic-link client access for projects, SoWs,
+                        deliverables, tickets, and limited chat.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-7">
+                  <div class="lightbox-content">
+                    <h3 class="content-title">Charli Knows / Project Jarvis</h3>
+                    <div class="content-description">
+                      <p>
+                        Charli Knows is an enterprise project management and
+                        delivery platform that brings projects, statements of
+                        work, deliverables, feature requests, time, budgets,
+                        meetings, proposals, and client communication into one
+                        operating system.
+                      </p>
+                      <p>
+                        The problem it solves is familiar to delivery teams:
+                        project context lives in email, spreadsheets, ticketing
+                        tools, and chat; estimates are inconsistent; budget
+                        health appears too late; and clients need visibility
+                        without seeing every internal detail.
+                      </p>
+                      <p>
+                        The platform embeds an AI assistant, Charli, directly in
+                        the workflow. It supports project and deliverable chat,
+                        a global intent interpreter, scope analysis, estimates,
+                        risk analysis, acceptance criteria generation, SoW
+                        planning, time parsing, budget health, invoice summaries,
+                        and weekly reporting.
+                      </p>
+                      <p>
+                        I built the system as a full-stack product with .NET
+                        Aspire services, a dedicated streaming chat service, a
+                        YARP gateway, PostgreSQL, Entity Framework Core,
+                        SvelteKit, TypeScript, TailwindCSS, OpenAPI-generated
+                        clients, Hangfire jobs, Azure OpenAI, optional Gemini,
+                        Slack and Gmail integrations, MCP-capable agents, and a
+                        white-label client portal.
+                      </p>
+                      <ul class="case-study-list">
+                        <li>Projects, SoWs, phases, deliverables, subtasks, dependencies, and acceptance criteria.</li>
+                        <li>Feature requests with status workflows, screenshots, scope, risk, estimates, and links to deliverables.</li>
+                        <li>Time entries, budget snapshots, estimate accuracy, burn rate, deadlines, and invoice-ready summaries.</li>
+                        <li>Agent users with memory, delegated tasks, MCP tool use, and execution history.</li>
+                        <li>Client users with restricted magic-link access to project data, tickets, deliverables, and limited chat.</li>
+                      </ul>
+                      <p>
+                        The outcome is a single source of truth for delivery,
+                        with AI that understands the project, the SoW, the team,
+                        the budget, and the client conversation.
+                      </p>
+                    </div>
+                    <ul class="list-inline content-info">
+                      <li class="list-inline-item single-info">
+                        <span>Client:</span>
+                        <p>Charli Knows</p>
+                      </li>
+                      <li class="list-inline-item single-info">
+                        <span>Categories:</span>
+                        <p>AI Platform, Project Management, Client Portal</p>
+                      </li>
+                      <li class="list-inline-item single-info">
+                        <span>Status:</span>
+                        <p>Active product</p>
+                      </li>
+                      <li class="list-inline-item single-info">
+                        <span>Technologies:</span>
+                        <p>
+                          .NET Aspire, C#, SvelteKit, TypeScript, PostgreSQL,
+                          EF Core, TailwindCSS, Azure OpenAI, Hangfire, YARP,
+                          Slack, Gmail, MCP
+                        </p>
+                      </li>
+                    </ul>
+                    <a
+                      class="btn content-btn button-main button-scheme"
+                      target="_blank"
+                      rel="noopener"
+                      href="https://www.charliknows.ai"
+                      role="button"
+                      >Visit Project</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Single lightbox-->
+          <div class="lightbox-wrapper" id="item-equimeta">
+            <div class="f-basis-100">
+              <button class="lightbox-close" type="button" data-modal-close onclick="window.closeCaseStudy && window.closeCaseStudy(this); return false;">Close</button>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-lg-5">
+                  <div class="lightbox-gallery owl-carousel owl-theme">
+                    <div class="case-study-panel">
+                      <span>Marketplace</span>
+                      <strong>Discovery with transaction depth</strong>
+                      <p>
+                        Public SSR pages for horses, equipment, properties,
+                        wanted posts, professional profiles, saved searches, and
+                        buyer recommendations.
+                      </p>
+                    </div>
+                    <div class="case-study-panel">
+                      <span>Deal Room</span>
+                      <strong>Payments, documents, and trust workflow</strong>
+                      <p>
+                        Stage-gated offers, messaging, purchase agreements,
+                        deposits, final payment, Stripe webhooks, reviews, and
+                        notifications stay attached to one transaction record.
+                      </p>
+                    </div>
+                    <div class="case-study-panel">
+                      <span>Operations</span>
+                      <strong>Built beyond the listing page</strong>
+                      <p>
+                        Barn management, horse registry, care logs, billing,
+                        invoices, contracts, team chat, show preparation, admin
+                        tooling, and support diagnostics.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-7">
+                  <div class="lightbox-content">
+                    <h3 class="content-title">Equimeta marketplace and operations platform</h3>
+                    <div class="content-description">
+                      <p>
+                        Equimeta is a production-oriented equestrian marketplace
+                        and operations platform built for high-trust horse
+                        transactions, professional services, barn workflows, and
+                        buyer discovery. It combines a public SEO-focused
+                        marketplace with authenticated workflows for buyers,
+                        sellers, trainers, barn managers, affiliates,
+                        administrators, and service providers.
+                      </p>
+                      <p>
+                        I led the end-to-end technical implementation across
+                        architecture, backend APIs, frontend product flows,
+                        operational tooling, payment and entitlement flows,
+                        asynchronous job processing, SEO verification, and Azure
+                        deployment hardening.
+                      </p>
+                      <div class="case-study-grid">
+                        <article>
+                          <span>Backend architecture</span>
+                          <h4>Modular vertical slices</h4>
+                          <p>
+                            ASP.NET Core minimal APIs, MediatR, EF Core, Dapper,
+                            PostgreSQL, Redis, SignalR, Hangfire, and QuestPDF
+                            organized into bounded modules for marketplace,
+                            identity, barn, payments, horses, documents,
+                            competition, insights, affiliates, and monitoring.
+                          </p>
+                        </article>
+                        <article>
+                          <span>Frontend contract</span>
+                          <h4>Generated API types</h4>
+                          <p>
+                            SvelteKit and Svelte 5 use OpenAPI-generated DTOs,
+                            a typed API client, route-level SSR for public pages,
+                            structured API exceptions, and verification through
+                            Prettier, ESLint, svelte-check, schema drift audits,
+                            and production builds.
+                          </p>
+                        </article>
+                        <article>
+                          <span>Trust workflow</span>
+                          <h4>Stripe Connect Deal Room</h4>
+                          <p>
+                            Direct charges run on the seller's connected account
+                            with platform application fees, stage-gated checkout,
+                            executed purchase agreements, optional deposits,
+                            addendum signing, webhook inbox processing, and
+                            idempotent transaction guards.
+                          </p>
+                        </article>
+                        <article>
+                          <span>Operations</span>
+                          <h4>Background work with visibility</h4>
+                          <p>
+                            A separate scheduler process handles matching,
+                            saved searches, Stripe webhooks, entitlements,
+                            affiliate payouts, image promotion, enrichment,
+                            notifications, care reminders, analytics rollups,
+                            and retention jobs.
+                          </p>
+                        </article>
+                      </div>
+                      <h4 class="case-study-section-title">Product areas built</h4>
+                      <ul class="case-study-list">
+                        <li>Marketplace discovery for listings, wanted posts, saved searches, professional profiles, and recommendations.</li>
+                        <li>Deal room workflows for offers, messaging, stage progression, purchase documents, deposits, final payment, reviews, and notifications.</li>
+                        <li>Barn operations tools for managed horses, care logs, medication, feed programs, events, billing, invoices, contracts, and show-day preparation.</li>
+                        <li>Horse registry features for claim flows, pedigree edits, media, saved horses, genetic tests, comments, and competition summaries.</li>
+                        <li>Admin tooling for analytics, support triage, claims, Stripe webhooks, outreach, cache management, and system logs.</li>
+                      </ul>
+                      <h4 class="case-study-section-title">Technical highlights</h4>
+                      <ul class="case-study-list">
+                        <li>Buyer matching pipeline using outbox events, SQL prefilters, <code>FOR UPDATE SKIP LOCKED</code> claiming, and a shared scoring evaluator.</li>
+                        <li>Real-time deal, offer, notification, inquiry, and team chat updates through SignalR with Redis-backed scale-out support.</li>
+                        <li>Document templates, generated PDFs, signatures, and production signing support through Azure Key Vault-backed certificate infrastructure.</li>
+                        <li>SSR-first public pages, Core Web Vitals baselines, manual Vite chunking, dynamic imports, self-hosted fonts, image proxy resizing, and optional Blob Storage rendition caching.</li>
+                        <li>Structured logging with Serilog, Datadog forwarding, OpenTelemetry support, persisted monitoring logs, frontend diagnostics, health checks, and support snapshots.</li>
+                      </ul>
+                      <p>
+                        The strongest technical story is the combination of
+                        product breadth and operational depth: Equimeta is not
+                        just a listing site, but a maintainable production system
+                        designed for real users, complex transactions, and
+                        long-term platform growth.
+                      </p>
+                    </div>
+                    <ul class="list-inline content-info">
+                      <li class="list-inline-item single-info">
+                        <span>Client:</span>
+                        <p>Equimeta</p>
+                      </li>
+                      <li class="list-inline-item single-info">
+                        <span>Categories:</span>
+                        <p>Marketplace, Vertical SaaS, Operations Platform</p>
+                      </li>
+                      <li class="list-inline-item single-info">
+                        <span>Status:</span>
+                        <p>Live product</p>
+                      </li>
+                      <li class="list-inline-item single-info">
+                        <span>Technologies:</span>
+                        <p>
+                          ASP.NET Core, MediatR, EF Core, Dapper, PostgreSQL,
+                          Redis, SignalR, Hangfire, SvelteKit, Svelte 5,
+                          TypeScript, Stripe Connect, Clerk, .NET Aspire, Azure,
+                          Datadog, OpenTelemetry, Capacitor
+                        </p>
+                      </li>
+                    </ul>
+                    <a
+                      class="btn content-btn button-main button-scheme"
+                      target="_blank"
+                      rel="noopener"
+                      href="https://www.equimeta.co"
+                      role="button"
+                      >Visit Project</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Single lightbox-->
+          <div class="lightbox-wrapper" id="item-daedalus">
+            <div class="f-basis-100">
+              <button class="lightbox-close" type="button" data-modal-close onclick="window.closeCaseStudy && window.closeCaseStudy(this); return false;">Close</button>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-lg-5">
+                  <div class="lightbox-gallery owl-carousel owl-theme">
+                    <div class="case-study-panel">
+                      <span>Audit</span>
+                      <strong>Find the gaps fast</strong>
+                      <p>
+                        Scan a HubSpot portal for broken processes, noisy data,
+                        unused fields, workflow issues, and reporting gaps.
+                      </p>
+                    </div>
+                    <div class="case-study-panel">
+                      <span>Review</span>
+                      <strong>Approve every change</strong>
+                      <p>
+                        Recommended properties, pipelines, workflows, and
+                        dashboards are visible before anything touches production.
+                      </p>
+                    </div>
+                    <div class="case-study-panel">
+                      <span>Deploy</span>
+                      <strong>Configuration with rollback</strong>
+                      <p>
+                        Portal changes deploy with confidence and can be undone
+                        if the team wants to reverse course.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-7">
+                  <div class="lightbox-content">
+                    <h3 class="content-title">Daedalus</h3>
+                    <div class="content-description">
+                      <p>
+                        Daedalus is a HubSpot portal audit and configuration
+                        platform for teams whose CRM has become expensive,
+                        cluttered, and hard to trust.
+                      </p>
+                      <p>
+                        The product turns consultant-style portal cleanup into a
+                        guided software flow: connect the portal, review the
+                        recommended configuration, approve or modify each change,
+                        and deploy with rollback available.
+                      </p>
+                      <p>
+                        The experience is focused on business outcomes: pipelines
+                        that match how sales actually works, properties that have
+                        a reason to exist, workflows that move lifecycle stages
+                        forward, dashboards the board can trust, and a CRM the
+                        team will use.
+                      </p>
+                    </div>
+                    <ul class="list-inline content-info">
+                      <li class="list-inline-item single-info">
+                        <span>Client:</span>
+                        <p>Daedalus</p>
+                      </li>
+                      <li class="list-inline-item single-info">
+                        <span>Categories:</span>
+                        <p>CRM Automation, HubSpot, SaaS</p>
+                      </li>
+                      <li class="list-inline-item single-info">
+                        <span>Status:</span>
+                        <p>Live product</p>
+                      </li>
+                      <li class="list-inline-item single-info">
+                        <span>Capabilities:</span>
+                        <p>
+                          Portal audit, configuration planning, review-before-deploy,
+                          workflow cleanup, dashboards, rollback
+                        </p>
+                      </li>
+                    </ul>
+                    <a
+                      class="btn content-btn button-main button-scheme"
+                      target="_blank"
+                      rel="noopener"
+                      href="https://www.getdaedalus.com"
+                      role="button"
+                      >Visit Project</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Single lightbox-->
+          <div class="lightbox-wrapper" id="item-cyberab">
+            <div class="f-basis-100">
+              <button class="lightbox-close" type="button" data-modal-close onclick="window.closeCaseStudy && window.closeCaseStudy(this); return false;">Close</button>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-lg-5">
+                  <div class="lightbox-gallery owl-carousel owl-theme">
                     <img
                       class="img-fluid item-img"
-                      alt="cmmc-marketplace"
-                      src="img/cmmc-2.png"
+                      alt="The Cyber AB logo"
+                      src="img/CMMC_Primary_Logo.svg"
                     />
-                    <img
-                      class="img-fluid item-img"
-                      alt="CMMC Dashboard"
-                      src="img/cmmc-3.png"
-                    />
-                    <img
-                      class="img-fluid item-img"
-                      alt="hubspot-dashboard"
-                      src="img/cmmc-4.png"
-                    />
+                    <div class="case-study-panel">
+                      <span>Migration</span>
+                      <strong>Production data translated with care</strong>
+                      <p>
+                        Reverse engineered the previous production database and
+                        moved critical commerce and credentialing records into a
+                        cleaner operating model.
+                      </p>
+                    </div>
+                    <div class="case-study-panel">
+                      <span>Operations</span>
+                      <strong>Commerce, CRM, training, and background jobs</strong>
+                      <p>
+                        Connected customer workflows across e-commerce, HubSpot,
+                        DocuSign, Checkr, Moodle, and scheduled processing.
+                      </p>
+                    </div>
+                    <div class="case-study-panel">
+                      <span>Oversight</span>
+                      <strong>Architecture and delivery across the stack</strong>
+                      <p>
+                        Coordinated planning, development, maintenance, and
+                        production integration work for a high-visibility system.
+                      </p>
+                    </div>
                   </div>
                 </div>
                 <div class="col-12 col-lg-7">
                   <div class="lightbox-content">
                     <h3 class="content-title">
-                      CyberAB Custom eCommerce & Integrations
+                      The Cyber AB custom e-commerce and integrations
                     </h3>
                     <div class="content-description">
                       <p>
-                        The CyberAB site is responsible for working with the
-                        Department of Defense to organize the Cybersecurity
-                        ecosystem of the United States.
+                        The Cyber AB site supports the organization responsible
+                        for coordinating key parts of the U.S. cybersecurity and
+                        CMMC ecosystem.
                       </p>
                       <p>
-                        The CyberAB is an e-commerce site built using a custom
-                        framework with numerous 3rd party integrations. This
-                        project was a massive undertaking in which I oversaw the
-                        architecture, planning, development, and maintenance of
-                        all the 3rd party integrations from concept to
-                        production. I was responsible for reverse engineering
-                        their old production database and translating the data
-                        to the new site.
+                        I oversaw architecture, planning, development, and
+                        maintenance for a custom e-commerce and integration
+                        platform with numerous third-party services. The work
+                        included reverse engineering the previous production
+                        database, translating data into the new system, and
+                        coordinating production integrations across the stack.
+                      </p>
+                      <p>
+                        The result was a more connected platform for commerce,
+                        credentialing workflows, customer operations, training,
+                        CRM processes, background jobs, and reporting.
                       </p>
                     </div>
                     <ul class="list-inline content-info">
                       <li class="list-inline-item single-info">
                         <span>Client:</span>
-                        <p>The CyberAB</p>
+                        <p>The Cyber AB</p>
                       </li>
                       <li class="list-inline-item single-info">
                         <span>Categories:</span>
-                        <p>
-                          <a href="#0">E-Commerce</a>,
-                          <a href="#0">Integrations</a>
-                        </p>
+                        <p>E-Commerce, Enterprise Integrations, Data Migration</p>
                       </li>
                       <li class="list-inline-item single-info">
                         <span>Date:</span>
-                        <p>December, 2021 to Present</p>
+                        <p>December 2021 to Present</p>
                       </li>
                       <li class="list-inline-item single-info">
                         <span>Technologies:</span>
                         <p>
                           Angular, C#, DocuSign, HubSpot, Checkr, Hangfire,
-                          MSSQL, Postgres, HubSpot Workflows, Moodle, Meazure
+                          MSSQL, PostgreSQL, HubSpot Workflows, Moodle, Meazure
                           Learning
                         </p>
                       </li>
@@ -875,100 +954,8 @@
                     <a
                       class="btn content-btn button-main button-scheme"
                       target="_blank"
+                      rel="noopener"
                       href="https://cyberab.org"
-                      role="button"
-                      >Visit Project</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="lightbox-wrapper" id="item-5">
-            <div class="f-basis-100">
-              <div class="lightbox-close" data-modal-close>
-                <span class="close-btn"><span class="btn-line"></span></span>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-5">
-                  <div class="lightbox-gallery owl-carousel owl-theme">
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/maxiRoseLife-1.png"
-                    />
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/maxiroseLife-2.png"
-                    />
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/maxiroseLife-3.png"
-                    />
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/maxiroseLife-4.png"
-                    />
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/maxiroseLife-5.png"
-                    />
-                    <img
-                      class="img-fluid item-img"
-                      alt="Item"
-                      src="img/maxiroseLife-6.png"
-                    />
-                  </div>
-                </div>
-                <div class="col-12 col-lg-7">
-                  <div class="lightbox-content">
-                    <h3 class="content-title">Shopify Site</h3>
-                    <div class="content-description">
-                      <p>
-                        maxirose is an e-commerce site built using Shopify using
-                        their Liquid templating language
-                      </p>
-                      <p>
-                        This project is a live e-commerce site created for my
-                        client maxirose to promote their online boutique. It
-                        features a custom layout using their Liquid template
-                        language and several add-in features for a better user
-                        experience on the front-end as well as admin experience
-                        on the back-end. The site currently boasts one of the
-                        best conversion rates in their category, converting
-                        nearly 120% more orders than their competition.
-                      </p>
-                    </div>
-                    <ul class="list-inline content-info">
-                      <li class="list-inline-item single-info">
-                        <span>Client:</span>
-                        <p>Freelance</p>
-                      </li>
-                      <li class="list-inline-item single-info">
-                        <span>Categories:</span>
-                        <p>
-                          <a href="#0">E-Commerce</a>, <a href="#0">Shopify</a>
-                        </p>
-                      </li>
-                      <li class="list-inline-item single-info">
-                        <span>Date:</span>
-                        <p>October 10, 2020</p>
-                      </li>
-                      <li class="list-inline-item single-info">
-                        <span>Technologies:</span>
-                        <p>Shopify, Liquid, HTML, CSS</p>
-                      </li>
-                    </ul>
-                    <a
-                      class="btn content-btn button-main button-scheme"
-                      target="_blank"
-                      href="https://maxirose.life"
                       role="button"
                       >Visit Project</a
                     >
@@ -984,173 +971,80 @@
             <div class="row">
               <div class="col-12">
                 <div class="section-heading">
-                  <h2 class="section-title">My Tech Stacks</h2>
+                  <span class="section-kicker">Capabilities</span>
+                  <h2 class="section-title">The stack matters less than the system it supports.</h2>
                   <p class="section-description">
-                    Technologies I use for my clients:
+                    I work across product strategy, implementation, integrations, data, and cloud operations so the final system has fewer handoff gaps.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="row capability-grid">
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-service">
-                  <img
-                    class="icon-small"
-                    src="img/c-sharp-logo.svg"
-                    alt="csharp-logo"
-                  />
-                  <img
-                    class="icon-small"
-                    src="img/typescript-logo.png"
-                    alt="typescript-logo"
-                  />
-                  <img
-                    class="icon-small"
-                    src="img/rust-logo.png"
-                    alt="rust-logo"
-                  />
-                  <h6 class="service-title">C# | TypeScript | Rust</h6>
+                  <span class="service-index">01</span>
+                  <h6 class="service-title">Product architecture</h6>
                   <p class="service-description">
-                    I have architected and designed dozens of solutions and
-                    integrations using .NET8, TypeScript, and Rust for clients,
-                    and specialize in building performant APIs and full-stack
-                    sites.
+                    Translate ambiguous workflows into domain models, technical
+                    plans, and delivery slices that a team can actually ship.
                   </p>
+                  <span class="service-stack">.NET / TypeScript / PostgreSQL</span>
                 </div>
               </div>
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-service">
-                  <img
-                    class="icon-small"
-                    src="img/hubspot-logo.jpeg"
-                    alt="hubspot-logo"
-                  />
-                  <img
-                    class="icon-small"
-                    src="img/sage-logo.jpeg"
-                    alt="sage-logo"
-                  />
-                  <img
-                    class="icon-small"
-                    src="img/oracle-logo.png"
-                    alt="oracle-logo"
-                  />
-                  <img
-                    class="icon-small"
-                    src="img/syspro-logo.png"
-                    alt="syspro-logo"
-                  />
-                  <h6 class="service-title">CRM & ERP Integrations</h6>
+                  <span class="service-index">02</span>
+                  <h6 class="service-title">CRM and ERP integrations</h6>
                   <p class="service-description">
-                    I specialize in building integrations with various ERPs and
-                    CRMs, I offer consulting services as well as the technical
-                    ability to customize your environment and keep data flowing.
+                    Build and repair the systems that keep customer, order,
+                    finance, and operations data flowing between tools.
                   </p>
+                  <span class="service-stack">HubSpot / Sage / Oracle / custom APIs</span>
                 </div>
               </div>
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-service">
-                  <img
-                    class="icon-small"
-                    src="img/svelte.jpg"
-                    alt="svelte-logo"
-                  />
-                  <img
-                    class="icon-small"
-                    src="img/react-logo.png"
-                    alt="react-logo"
-                  />
-                  <img
-                    class="icon-small"
-                    src="img/dot-net-logo.png"
-                    alt="dotnet-logo"
-                  />
-                  <h6 class="service-title">Svelte | React | ASP.NET</h6>
+                  <span class="service-index">03</span>
+                  <h6 class="service-title">Full-stack product builds</h6>
                   <p class="service-description">
-                    Svelte, SvelteKit, React, ASP.NET and Blazor are some of the
-                    web frameworks I've worked within. I've built and integrated
-                    with various 3rd party libraries to complete the user
-                    journey.
+                    Design and implement SaaS interfaces, APIs, job systems,
+                    dashboards, admin tools, and customer portals.
                   </p>
+                  <span class="service-stack">SvelteKit / React / ASP.NET</span>
                 </div>
               </div>
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-service">
-                  <img
-                    class="icon-small"
-                    src="img/ChatGPT-Logo.jpg"
-                    alt="chat-gpt-logo"
-                  />
-                  <img
-                    class="icon-small"
-                    src="img/hf-logo.png"
-                    alt="hugging-face-logo"
-                  />
-                  <img
-                    class="icon-small"
-                    src="img/Python-logo.png"
-                    alt="python-logo"
-                  />
-                  <h6 class="service-title">Artificial Intelligence</h6>
+                  <span class="service-index">04</span>
+                  <h6 class="service-title">Applied AI workflows</h6>
                   <p class="service-description">
-                    Artificial intelligence and the opportunities it provides
-                    are set to be transformational to our world as we know it. I
-                    strive to stay in-the-know about the latest advancements in
-                    AI to benefit my clients.
+                    Connect language models to business context, approvals,
+                    agent actions, reporting, and human review paths.
                   </p>
+                  <span class="service-stack">Azure OpenAI / Gemini / MCP / agents</span>
                 </div>
               </div>
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-service mb-0">
-                  <img
-                    class="icon-database-small"
-                    src="img/sql-logo.png"
-                    alt="sql-logo"
-                  />
-                  <img
-                    class="icon-database-small"
-                    src="img/redis.jpg"
-                    alt="redis-logo"
-                  />
-                  <img
-                    class="icon-database-small"
-                    src="img/postgres.png"
-                    alt="postgres-logo"
-                  />
-                  <h6 class="service-title">Databases</h6>
+                  <span class="service-index">05</span>
+                  <h6 class="service-title">Data modeling and reporting</h6>
                   <p class="service-description">
-                    I've worked with a variety of databases, and specialize in
-                    SQL, PostgreSQL, and Redis data structures and architecture.
-                    A clean, well-architected database makes or breaks a
-                    project's ability to scale.
+                    Shape the database around real decisions: reliable records,
+                    useful reporting, clean migrations, and fast enough queries.
                   </p>
+                  <span class="service-stack">SQL / PostgreSQL / Redis</span>
                 </div>
               </div>
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-service">
-                  <img
-                    class="icon-small"
-                    src="img/azure-logo.png"
-                    alt="azure-logo"
-                  />
-                  <img
-                    class="icon-small"
-                    src="img/docker-logo.png"
-                    alt="docker-logo"
-                  />
-                  <img
-                    class="icon-small"
-                    src="img/aws-logo.png"
-                    alt="aws-logo"
-                  />
-                  <h6 class="service-title">DevOps</h6>
+                  <span class="service-index">06</span>
+                  <h6 class="service-title">Cloud and delivery operations</h6>
                   <p class="service-description">
-                    I specialize in managing DevOps environments built in the
-                    Microsoft Azure and AWS cloud ecosystems with Docker.
-                    Containerization and orchestration are the keys to running a
-                    complete SaaS offering, and automation is the future of our
-                    industry.
+                    Set up deployments, background jobs, observability,
+                    containerization, and the operational habits that keep apps
+                    healthy.
                   </p>
+                  <span class="service-stack">Azure / AWS / Docker / Hangfire</span>
                 </div>
               </div>
             </div>
@@ -1163,58 +1057,78 @@
             <div class="row">
               <div class="col-12">
                 <div class="section-heading">
-                  <h2 class="section-title">Get in Touch</h2>
+                  <span class="section-kicker">Contact</span>
+                  <h2 class="section-title">Bring the messy workflow.</h2>
                   <p class="section-description">
-                    Feel free to contact me anytime to discuss your next
-                    project!
+                    Send the problem, the constraints, and what needs to be true
+                    after the work is done. I will follow up with a practical next step.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="row contact-layout">
+              <div class="col-12 col-lg-4">
+                <aside class="contact-aside">
+                  <span class="section-kicker">Direct</span>
+                  <h3>Prefer email?</h3>
+                  <p>
+                    For architecture reviews, integration cleanup, AI product
+                    work, or selective builds, include the current stack and the
+                    business process you are trying to improve.
+                  </p>
+                  <a href="mailto:jeremy@jeremylarose.com">jeremy@jeremylarose.com</a>
+                </aside>
+              </div>
               <!-- Contact form-->
-              <div class="col-12">
+              <div class="col-12 col-lg-8">
                 <form
                   name="contact-form"
                   id="contact-form"
+                  class="contact-card"
                   enctype="text/plain"
                   action="https://docs.google.com/forms/d/e/1FAIpQLSfaOZv0O33KaUWb-0Ti4ZH4QixjkMwuLfupapYJ3qaagVhauw/formResponse?"
                   target="hidden_iframe"
-                  onsubmit="submitted=true;"
+                  onsubmit="window.submitted=true;"
                 >
                   <div class="col-12 form-group">
-                    Name:<label for="entry.320645366"></label
-                    ><input
+                    <label for="entry.320645366">Name</label>
+                    <input
                       class="form-control"
                       type="text"
                       name="entry.320645366"
                       id="entry.320645366"
+                      autocomplete="name"
+                      required
                     />
                   </div>
                   <div class="col-12 form-group">
-                    Email:<label for="entry.781219712"></label
-                    ><input
+                    <label for="entry.781219712">Email</label>
+                    <input
                       class="form-control"
                       type="email"
                       name="entry.781219712"
                       id="entry.781219712"
+                      autocomplete="email"
+                      required
                     />
                   </div>
                   <div class="col-12 form-group">
-                    Subject:<label for="entry.1718110365"></label
-                    ><input
+                    <label for="entry.1431652861">Subject</label>
+                    <input
                       class="form-control"
                       type="text"
                       name="entry.1431652861"
                       id="entry.1431652861"
+                      required
                     />
                   </div>
                   <div class="col-12 form-group form-message">
-                    Message:<label for="entry.1718110365"></label
-                    ><textarea
+                    <label for="entry.1718110365">Message</label>
+                    <textarea
                       class="form-control"
                       name="entry.1718110365"
                       id="entry.1718110365"
+                      required
                     ></textarea>
                   </div>
                   <div class="col-12 form-submit">
@@ -1223,15 +1137,16 @@
                       type="submit"
                       value="submit"
                     >
-                      Submit
+                      Send message
                     </button>
+                    <p class="form-status" role="status" aria-live="polite"></p>
                   </div>
                 </form>
                 <iframe
                   name="hidden_iframe"
                   id="hidden_iframe"
-                  style="display: none"
-                  onload="if(submitted) {}"
+                  class="hidden-form-frame"
+                  title="Hidden contact form submission frame"
                 ></iframe>
               </div>
             </div>
@@ -1248,6 +1163,7 @@
                     <a
                       href="https://goo.gl/maps/MWEugV1XP7pEmHVR8"
                       target="_blank"
+                      rel="noopener"
                       >Grand Rapids, Michigan, United States.</a
                     >
                   </p>
@@ -1274,25 +1190,27 @@
             </div>
             <div class="row mini-footer">
               <div class="social-medias col-12 col-lg-5">
-                <a class="twitter" href="https://twitter.com/jeremylarose"
+                <a class="twitter" href="https://twitter.com/jeremylarose" aria-label="Twitter"
                   ><i class="icon ion-logo-twitter"></i
                 ></a>
                 <a
                   class="linkedin"
                   href="https://www.linkedin.com/in/jeremylarose"
+                  aria-label="LinkedIn"
                   ><i class="icon ion-logo-linkedin"></i
                 ></a>
-                <a class="github" href="https://github.com/jeremy-larose"
+                <a class="github" href="https://github.com/jeremy-larose" aria-label="GitHub"
                   ><i class="icon ion-logo-github"></i
                 ></a>
                 <a
                   class="facebook"
                   href="https://www.facebook.com/jeremy.j.larose"
+                  aria-label="Facebook"
                   ><i class="icon ion-logo-facebook"></i
                 ></a>
               </div>
               <p class="copyright-notice col-12 col-lg-7">
-                Copyright © 2023 Jeremy LaRose, all rights reserved.
+                Copyright © 2026 Jeremy LaRose, all rights reserved.
               </p>
             </div>
           </div>
@@ -1311,17 +1229,6 @@
     <script src="js/particles.js"></script>
     <script src="js/main.js"></script>
     <!-- Custom JS (Add your custom JS scripts to this file)-->
-    <script src="js/custom.js"></script>
-
-    <script src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript">
-      var submitted = false;
-    </script>
-    <script type="text/javascript">
-      $("#contact-form").on("submit", function (e) {
-        $("#contact-form *").fadeOut(2000);
-        $("#contact-form").prepend("Your message has been sent!");
-      });
-    </script>
+    <script src="js/custom.js?v=20260507d"></script>
   </body>
 </html>
